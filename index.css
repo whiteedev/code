@@ -1,5 +1,5 @@
 body {
-    background-color: #101010;
+    background-color: #202020;
 }
 
 .coloranim {
@@ -34,13 +34,13 @@ body {
     width: 200px;
     height: 50px;
     font-size: 20px;
-    margin: 500px 0px;
-    text-align: center;
+    margin: 500px 0px 0px 20%;
     border: none;
     border-radius: 8px;
     transition: all 0.5s;
     cursor: pointer;
     font-family: 'Courier New', Courier, monospace;
+    position: absolute;
 }
 
 .c:hover {
@@ -60,6 +60,26 @@ a {
     color: #000;
 }
 
-.center {
-    text-align: center;
+.ht {
+    color: #fff;
+    position: absolute;
+    margin: 600px 0px 0px 20%;
+    position: absolute;
+}
+
+.htm {
+    margin: 700px 0%;
+    position: absolute;
+}
+
+.cs {
+    color: #fff;
+    position: absolute;
+    margin: 760px 0px 0px 20%;
+    position: absolute;
+}
+
+.css {
+    margin: 800px 0%;
+    position: absolute;
 }
