@@ -1,0 +1,59 @@
+body {
+    background-color: #202020;
+}
+
+.coloranim {
+    position: absolute;
+    width: 200px;
+    height: 200px;
+    animation-duration: 3s;
+    animation-name: anim;
+    animation-iteration-count: infinite;
+    margin: 35% 0px 0px 20%;
+    cursor: pointer;
+}
+
+.coloranim:hover {
+    transition: all 1s;
+}
+
+@keyframes anim {
+    0% {
+        transform: rotate(0deg);
+    }
+    100% {
+        transform: rotate(360deg);
+    }
+}
+
+.c {
+    background-color: #ff0000;
+    color: #000;
+    width: 200px;
+    height: 50px;
+    font-size: 20px;
+    margin: 500px 0px 0px 20%;
+    border: none;
+    border-radius: 8px;
+    transition: all 0.5s;
+    cursor: pointer;
+    font-family: 'Courier New', Courier, monospace;
+    position: absolute;
+}
+
+.c:hover {
+    background-color: #ffffff;
+    width: 200px;
+    height: 55px;
+}
+
+.c:active {
+    background-color: #2e2e2e;
+    color: #fff;
+    border-radius: 12px;
+}
+
+a {
+    text-decoration-line: none;
+    color: #000;
+}
