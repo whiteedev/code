@@ -1,0 +1,65 @@
+body {
+    background-color: #101010;
+}
+
+.coloranim {
+    background-color: red;
+    padding: 100px 100px;
+    position: absolute;
+    border-radius: 30%;
+    animation-duration: 6s;
+    animation-name: anim;
+    animation-iteration-count: infinite;
+    margin: 20% 0px 0px 200px;
+    cursor: pointer;
+}
+
+.coloranim:hover {
+    transition: all 1s;
+    background-color: #FFF;
+}
+
+@keyframes anim {
+    0% {
+        transform: rotate(0deg);
+    }
+    100% {
+        transform: rotate(360deg);
+    }
+}
+
+.c {
+    background-color: #ff0000;
+    color: #000;
+    width: 200px;
+    height: 50px;
+    font-size: 20px;
+    margin: 500px 0px;
+    text-align: center;
+    border: none;
+    border-radius: 8px;
+    transition: all 0.5s;
+    cursor: pointer;
+    font-family: 'Courier New', Courier, monospace;
+}
+
+.c:hover {
+    background-color: #ffffff;
+    width: 200px;
+    height: 55px;
+}
+
+.c:active {
+    background-color: #2e2e2e;
+    color: #fff;
+    border-radius: 12px;
+}
+
+a {
+    text-decoration-line: none;
+    color: #000;
+}
+
+.center {
+    text-align: center;
+}
